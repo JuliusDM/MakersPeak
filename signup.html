@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>signup - Maker Goes Wild</title>
+    <meta property="og:title" content="signup - Maker Goes Wild" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/makers mountain(1).png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+
+    <!-- <style> ... </style> -->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./signup.css" rel="stylesheet" />
+
+      <div class="signup-container">
+        <div class="header1-container header1-root-class-name1">
+          <a href="index.html" class="header1-navlink">
+            <img
+              alt="image"
+              src="public/makers_mountain_1_-removebg-preview-200h.png"
+              class="header1-image"
+            />
+          </a>
+          <button
+            id="languageToggle"
+            type="button"
+            class="header1-button button"
+          >
+            <span>Svenska</span>
+          </button>
+          <div class="header1-container1">
+            <a href="agendat-time-table.html" class="header1-navlink1">
+              <h1 class="header1-text"><span>Agenda</span></h1>
+            </a>
+            <a href="activities.html" class="header1-navlink2">
+              <h1 class="header1-text1 translatable">
+                <span>Activities</span>
+              </h1>
+            </a>
+            <a href="accomodation.html" class="header1-navlink3">
+              <h1 class="header1-text2 translatable">
+                <span>ACCOMODATION</span>
+              </h1>
+            </a>
+          </div>
+        </div>
+        <div class="form-container form-root-class-name">
+          <h1 class="form-text translatable"><span>Take your spot</span></h1>
+          <div class="form-container01">
+            <input
+              type="text"
+              required=""
+              placeholder="Name*"
+              class="form-textinput translatable input"
+            />
+            <input
+              type="text"
+              required=""
+              placeholder="Surname*"
+              class="form-textinput1 translatable input"
+            />
+          </div>
+          <div class="form-container02">
+            <input
+              type="text"
+              placeholder="Prefered roommate"
+              class="form-input translatable input"
+            />
+            <input
+              type="text"
+              placeholder="Prefered roommate"
+              class="form-input1 translatable input"
+            />
+          </div>
+          <div class="form-container03">
+            <span class="form-text01 translatable">
+              <span>Sweater size</span>
+            </span>
+            <select name="jacketsize" class="form-select">
+              <option value="XS" selected="">XS</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+              <option value="XXL">XXL</option>
+              <option value="XXXL">XXXL</option>
+            </select>
+          </div>
+          <h1 class="form-text02 translatable"><span>Choose cabin*</span></h1>
+          <select required="" class="form-select1">
+            <option value="Partycabin" selected="">Party cabin</option>
+            <option value="Sleepcabin">Sleep cabin</option>
+          </select>
+          <h1 class="form-text03 translatable">
+            <span>Allergies or food specialties</span>
+          </h1>
+          <textarea
+            placeholder="(Gluten intolerance, Vegetarian, Vegan etc.)"
+            class="form-textarea translatable textarea"
+          ></textarea>
+          <h1 class="form-text04 translatable">
+            <span>Choose your activities*</span>
+          </h1>
+          <div class="form-container04">
+            <div class="form-container05">
+              <input type="checkbox" checked="true" class="form-checkbox" />
+              <span class="form-text05 translatable"><span>Skiing</span></span>
+            </div>
+            <div class="form-container06">
+              <div class="form-container07">
+                <span class="form-text06 translatable">
+                  <span>Shoe size</span>
+                </span>
+                <select name="shoesize" class="form-select2">
+                  <option value="35" selected="">35</option>
+                  <option value="36">36</option>
+                  <option value="37">37</option>
+                  <option value="38">38</option>
+                  <option value="39">39</option>
+                  <option value="40">40</option>
+                  <option value="41">41</option>
+                  <option value="42">42</option>
+                  <option value="43">43</option>
+                  <option value="44">44</option>
+                  <option value="45">45</option>
+                  <option value="46">46</option>
+                  <option value="47">47</option>
+                  <option value="48">48</option>
+                  <option value="49">49</option>
+                  <option value="50">50</option>
+                </select>
+              </div>
+              <div class="form-container08">
+                <span class="form-text07 translatable">
+                  <span>Height</span>
+                </span>
+                <select name="height" size="3" multiple="" class="form-select3">
+                  <option value="150" selected="">150</option>
+                  <option value="151">151</option>
+                  <option value="152">152</option>
+                  <option value="153">153</option>
+                  <option value="154">154</option>
+                  <option value="155">155</option>
+                  <option value="156">156</option>
+                  <option value="157">157</option>
+                  <option value="158">158</option>
+                  <option value="159">159</option>
+                  <option value="160">160</option>
+                  <option value="161">161</option>
+                  <option value="162">162</option>
+                  <option value="163">163</option>
+                  <option value="164">164</option>
+                  <option value="165">165</option>
+                  <option value="166">166</option>
+                  <option value="167">167</option>
+                  <option value="168">168</option>
+                  <option value="169">169</option>
+                  <option value="170">170</option>
+                  <option value="171">171</option>
+                  <option value="172">172</option>
+                  <option value="173">173</option>
+                  <option value="174">174</option>
+                  <option value="175">175</option>
+                  <option value="176">176</option>
+                  <option value="177">177</option>
+                  <option value="178">178</option>
+                  <option value="179">179</option>
+                  <option value="180">180</option>
+                  <option value="181">181</option>
+                  <option value="182">182</option>
+                  <option value="183">183</option>
+                  <option value="184">184</option>
+                  <option value="185">185</option>
+                  <option value="186">186</option>
+                  <option value="187">187</option>
+                  <option value="188">188</option>
+                  <option value="189">189</option>
+                  <option value="190">190</option>
+                  <option value="191">191</option>
+                  <option value="192">192</option>
+                  <option value="193">193</option>
+                  <option value="194">194</option>
+                  <option value="195">195</option>
+                  <option value="196">196</option>
+                  <option value="197">197</option>
+                  <option value="198">198</option>
+                  <option value="199">199</option>
+                  <option value="200">200</option>
+                  <option value="201">201</option>
+                  <option value="202">202</option>
+                  <option value="203">203</option>
+                  <option value="204">204</option>
+                  <option value="205">205</option>
+                  <option value="206">206</option>
+                  <option value="207">207</option>
+                  <option value="208">208</option>
+                  <option value="209">209</option>
+                  <option value="210">210</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-container09">
+              <input type="checkbox" checked="true" class="form-checkbox1" />
+              <span class="form-text08 translatable">
+                <span>Längdskidor</span>
+              </span>
+            </div>
+            <div class="form-container10">
+              <div class="form-container11">
+                <span class="form-text09 translatable">
+                  <span>Shoe size</span>
+                </span>
+                <select name="shoesize" class="form-select4">
+                  <option value="35" selected="">35</option>
+                  <option value="36">36</option>
+                  <option value="37">37</option>
+                  <option value="38">38</option>
+                  <option value="39">39</option>
+                  <option value="40">40</option>
+                  <option value="41">41</option>
+                  <option value="42">42</option>
+                  <option value="43">43</option>
+                  <option value="44">44</option>
+                  <option value="45">45</option>
+                  <option value="46">46</option>
+                  <option value="47">47</option>
+                  <option value="48">48</option>
+                  <option value="49">49</option>
+                  <option value="50">50</option>
+                </select>
+              </div>
+              <div class="form-container12">
+                <span class="form-text10 translatable">
+                  <span>Height</span>
+                </span>
+                <select name="height" size="3" multiple="" class="form-select5">
+                  <option value="150" selected="">150</option>
+                  <option value="151">151</option>
+                  <option value="152">152</option>
+                  <option value="153">153</option>
+                  <option value="154">154</option>
+                  <option value="155">155</option>
+                  <option value="156">156</option>
+                  <option value="157">157</option>
+                  <option value="158">158</option>
+                  <option value="159">159</option>
+                  <option value="160">160</option>
+                  <option value="161">161</option>
+                  <option value="162">162</option>
+                  <option value="163">163</option>
+                  <option value="164">164</option>
+                  <option value="165">165</option>
+                  <option value="166">166</option>
+                  <option value="167">167</option>
+                  <option value="168">168</option>
+                  <option value="169">169</option>
+                  <option value="170">170</option>
+                  <option value="171">171</option>
+                  <option value="172">172</option>
+                  <option value="173">173</option>
+                  <option value="174">174</option>
+                  <option value="175">175</option>
+                  <option value="176">176</option>
+                  <option value="177">177</option>
+                  <option value="178">178</option>
+                  <option value="179">179</option>
+                  <option value="180">180</option>
+                  <option value="181">181</option>
+                  <option value="182">182</option>
+                  <option value="183">183</option>
+                  <option value="184">184</option>
+                  <option value="185">185</option>
+                  <option value="186">186</option>
+                  <option value="187">187</option>
+                  <option value="188">188</option>
+                  <option value="189">189</option>
+                  <option value="190">190</option>
+                  <option value="191">191</option>
+                  <option value="192">192</option>
+                  <option value="193">193</option>
+                  <option value="194">194</option>
+                  <option value="195">195</option>
+                  <option value="196">196</option>
+                  <option value="197">197</option>
+                  <option value="198">198</option>
+                  <option value="199">199</option>
+                  <option value="200">200</option>
+                  <option value="201">201</option>
+                  <option value="202">202</option>
+                  <option value="203">203</option>
+                  <option value="204">204</option>
+                  <option value="205">205</option>
+                  <option value="206">206</option>
+                  <option value="207">207</option>
+                  <option value="208">208</option>
+                  <option value="209">209</option>
+                  <option value="210">210</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-container13">
+              <input type="checkbox" checked="true" class="form-checkbox2" />
+              <span class="form-text11 translatable"><span>Scooter</span></span>
+            </div>
+            <div class="form-container14">
+              <input type="checkbox" checked="true" class="form-checkbox3" />
+              <span class="form-text12 translatable">
+                <span>Outdoor Cooking</span>
+              </span>
+            </div>
+          </div>
+          <button type="button" class="form-button translatable button">
+            <span>Submit</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

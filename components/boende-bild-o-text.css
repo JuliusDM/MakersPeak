@@ -1,0 +1,99 @@
+.boende-bild-o-text-container {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  margin-bottom: 200px;
+  flex-direction: column;
+}
+.boende-bild-o-text-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.boende-bild-o-text-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.boende-bild-o-text-image {
+  width: 25vw;
+  height: 20vw;
+  align-self: center;
+  object-fit: cover;
+}
+.boende-bild-o-text-text {
+  color: #ffffff;
+  width: 25vw;
+  height: 100%;
+  padding: var(--dl-space-space-unit);
+  font-size: 20px;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  text-align: left;
+  overflow-wrap: normal;
+}
+.boende-bild-o-text-container3 {
+  flex: 0 0 auto;
+  order: 3;
+  display: flex;
+  margin-top: 5vh;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.boende-bild-o-text-image1 {
+  width: 25vw;
+  height: 20vw;
+  align-self: center;
+  object-fit: cover;
+}
+.boende-bild-o-text-text1 {
+  color: #ffffff;
+  width: 25vw;
+  padding: var(--dl-space-space-unit);
+  font-size: 20px;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  text-align: left;
+}
+.boende-bild-o-text-container4 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.boende-bild-o-text-image2 {
+  order: 2;
+  width: 25vw;
+  height: 20vw;
+  align-self: center;
+  margin-top: 5vh;
+  object-fit: cover;
+}
+.boende-bild-o-text-text2 {
+  color: #ffffff;
+  order: 1;
+  width: 25vw;
+  padding: var(--dl-space-space-unit);
+  font-size: 20px;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  text-align: left;
+}
+.boende-bild-o-text-text3 {
+  color: rgba(255, 255, 255, 0);
+  font-size: 18px;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  text-align: center;
+}
+.boende-bild-o-text-root-class-name {
+  margin-top: var(--dl-space-space-fiveunits);
+  margin-bottom: var(--dl-space-space-sixunits);
+}
+

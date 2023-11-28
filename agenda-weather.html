@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>AgendaWeather - Maker Goes Wild</title>
+    <meta property="og:title" content="AgendaWeather - Maker Goes Wild" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/makers mountain(1).png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+
+    <!-- <style> ... </style> -->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./agenda-weather.css" rel="stylesheet" />
+
+      <div class="agenda-weather-container">
+        <div class="agenda-weather-container1">
+          <div class="header-container header-root-class-name9">
+            <a href="index.html" class="header-navlink">
+              <img
+                alt="image"
+                src="public/makers_mountain_1_-removebg-preview-200h.png"
+                class="header-image"
+              />
+            </a>
+            <button
+              id="languageToggle"
+              type="button"
+              class="header-button button"
+            >
+              <span>Change language</span>
+            </button>
+            <div class="header-container1">
+              <a href="agendat-time-table.html" class="header-navlink1">
+                <h1 class="header-text"><span>Agenda</span></h1>
+              </a>
+              <a href="activities.html" class="header-navlink2">
+                <h1 class="header-text1 translatable">
+                  <span>Activities</span>
+                </h1>
+              </a>
+              <a href="accomodation.html" class="header-navlink3">
+                <h1 class="header-text2 translatable">
+                  <span>ACCOMODATION</span>
+                </h1>
+              </a>
+            </div>
+          </div>
+          <div class="agenda-weather-container2">
+            <a href="agendat-time-table.html" class="agenda-weather-navlink">
+              <h1 class="agenda-weather-text">
+                <span>Time table</span>
+                <br />
+              </h1>
+            </a>
+            <a href="agenda-weather.html" class="agenda-weather-navlink1">
+              <h1 class="agenda-weather-text3">
+                <span>Weather</span>
+                <br />
+              </h1>
+            </a>
+            <a href="agenda-relevant.html" class="agenda-weather-navlink2">
+              <h1 class="agenda-weather-text6">
+                <span>Relevant info</span>
+                <br />
+              </h1>
+            </a>
+          </div>
+          <div class="agenda-weather-container3">
+            <iframe
+              src="https://www.yr.no/en/content/2-2704679/table.html"
+              class="agenda-weather-iframe"
+            ></iframe>
+          </div>
+        </div>
+        <div class="agenda-weather-container4"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
